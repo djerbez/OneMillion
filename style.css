@@ -1,0 +1,43 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 77%);
+}
+.wrapper {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: solid black 1px;
+    padding-bottom: 30px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.btn {
+    width: 400px;
+    height: 100px;
+    background-color: rgba(0,212,255,1);
+    border-color: rgba(0,212,255,1);
+    color: rgba(9,9,121,1)
+}
